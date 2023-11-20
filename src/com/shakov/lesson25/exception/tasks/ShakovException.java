@@ -1,6 +1,6 @@
 package com.shakov.lesson25.exception.tasks;
 
-public class ShakovException extends Exception {
+public class ShakovException extends RuntimeException {
 
     public ShakovException(String message) {
         super(message);
