@@ -16,6 +16,7 @@ public class Task2 {
                 System.out.println(values[i]);
             }
         } catch (ArrayIndexOutOfBoundsException exception) {
+            System.err.println("Catch");
             exception.printStackTrace();
         }
     }
